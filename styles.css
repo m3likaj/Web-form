@@ -1,0 +1,64 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/73/21/28/7321282f85e00da9a297ba3373aad688.jpg");
+    font-size: 20px;
+    padding: 3em;
+  }
+  form{
+    width: 50%;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #E6D5C3;
+  }
+  label{
+    display:block;
+    width:75%;
+    padding: 1em;   
+  }
+  #personal-info{
+    text-align: right;
+  }
+  #language, #test-center, #description, h1,legend{
+    text-align:center;
+  }
+  
+  input[type="text"], input[type="number"], input[type= "tel"], input[type="email"]{
+   width:60%;
+   background-color:#B48C74;
+  }
+  input[type="radio"]{
+    accent-color:#B48C74;
+  }
+  ::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  .learn-reason{
+    width:100%;
+    display:block;
+  }
+  textarea{
+  display:block;
+  width:100%;
+  color: white;
+  background-color:#B48C74;
+  }
+  fieldset{
+    border:none;
+    padding: 1 rem;
+    border-bottom: 2px solid #B48C74
+  }
+  fieldset:last-of-type{
+    border:none;
+  }
+  #submit{
+    background-color: #814636;
+    color:white;
+    border: none;
+    font-size: 20px;
+    display: block;
+    width:30%;
+    margin: 2em auto;
+    height:2.5em;
+  
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Placement test registration</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <form id="survey-form">
+      <h1 id="title">Level Placement Test Registration Form</h1>
+    <p id="description">Figuring out the problem is half of the solution! </p>
+
+      <fieldset id="personal-info">
+        <legend>Personal Info</legend>
+        <label  id = "name-label" for="name">First Name: <input id="name" type="text" placeholder="enter your first name" required></label>
+        <label for="last-name">Last Name: <input id="last-name" type="text" placeholder="enter your last name" required></label>
+        <label id="email-label" for="email">E-mail: <input id="email" type="email" placeholder="enter your email address" required></label>
+         <label for="telephone">Tel no: <input id="telephone" type="tel" placeholder="enter your phone number" required></label>
+         <label id="number-label"  for="number">Age: <input id="number" type="number" min="4" max="100" placeholder="enter your age" required></label>
+      </fieldset>
+
+
+      <fieldset id="language">
+        <legend> Choose the language(s) you want to test for</legend>
+        <label for="english"><input id="english" name= "language" value="english" type="checkbox" checked>English</label>
+        <label for="french"><input id="french" name= "language" value="french" type="checkbox">French</label>
+        <label for="russian"><input id="russian" name= "language"  value="russian" type="checkbox">Russian</label>
+        <label for="arabic"><input id="arabic" name= "language" value="arabic" type="checkbox">Arabic</label>
+      </fieldset>
+      
+      <fieldset id="test-center">
+        <legend> Choose your test center</legend>
+<label for="fsm"><input id="fsm" name= "test-center" value="fsm" type="radio" checked>FSM test center</label>
+<label for="ozluce"><input id="ozluce" name= "test-center" value="ozluce" type="radio">Ozluce test center</label>
+<label for="besevler"><input id="besevler" name= "test-center" value="besevler" type="radio">Besevler test center</label>
+        </fieldset>
+
+        <fieldset id="choose-format">
+         <label for= "dropdown">Choose the test format
+        <select id="dropdown">
+          <option value="in-person">In person</option>
+          <option value = "online">Online</option>
+          </select>
+          </label>
+          <label class= "learn-reason" for="reason"> Why do you want to learn the language(s) of your choice: <textarea id="reason" name="reason" rows=3 cols=30></textarea></label>
+          </fieldset>
+           <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
